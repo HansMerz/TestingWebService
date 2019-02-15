@@ -16,19 +16,17 @@ namespace ProbandoWebService
     {
         public Form1()
         {
+            InitializeComponent();
             String url = "https://web-service-to-csharp-hansmerz.c9users.io/test.php";
             var json = new WebClient().DownloadString(url);
             dynamic m = JsonConvert.DeserializeObject(json);
-            var result = JsonConvert.DeserializeObject<DataTable>(json);
-
-            dataGridView1.Rows.Add(result);
+            var result = JsonConvert.DeserializeObject<DataTable>(json);            
             
             foreach (var j in m)
             {
-                
-                MessageBox.Show("Nombres: "+j.Nombres+" Apellidos: "+ j.Apellidos + " Documento: "+ j.docPersona + " Correo: "+ j.Correo);                
-            }
-            InitializeComponent();
+                dataGridView1.Rows.Add(j.Nombres, j.Apellidos, j.docPersona, j.Correo);
+                //MessageBox.Show("Nombres: "+j.Nombres+" Apellidos: "+ j.Apellidos + " Documento: "+ j.docPersona + " Correo: "+ j.Correo);                
+            }            
         }
     }
 }

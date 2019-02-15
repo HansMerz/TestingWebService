@@ -12,3 +12,17 @@ C:\Users\Hans Merz\source\repos\ProbandoWebService\ProbandoWebService\obj\Debug\
 C:\Users\Hans Merz\source\repos\ProbandoWebService\ProbandoWebService\obj\Debug\ProbandoWebService.csproj.CopyComplete
 C:\Users\Hans Merz\source\repos\ProbandoWebService\ProbandoWebService\obj\Debug\ProbandoWebService.exe
 C:\Users\Hans Merz\source\repos\ProbandoWebService\ProbandoWebService\obj\Debug\ProbandoWebService.pdb
+D:\c#\WebService\TestingWebService\ProbandoWebService\bin\Debug\ProbandoWebService.exe.config
+D:\c#\WebService\TestingWebService\ProbandoWebService\bin\Debug\ProbandoWebService.exe
+D:\c#\WebService\TestingWebService\ProbandoWebService\bin\Debug\ProbandoWebService.pdb
+D:\c#\WebService\TestingWebService\ProbandoWebService\bin\Debug\Newtonsoft.Json.dll
+D:\c#\WebService\TestingWebService\ProbandoWebService\bin\Debug\Newtonsoft.Json.pdb
+D:\c#\WebService\TestingWebService\ProbandoWebService\bin\Debug\Newtonsoft.Json.xml
+D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebService.csprojAssemblyReference.cache
+D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebService.Form1.resources
+D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebService.Properties.Resources.resources
+D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebService.csproj.GenerateResource.cache
+D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebService.csproj.CoreCompileInputs.cache
+D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebService.csproj.CopyComplete
+D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebService.exe
+D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebService.pdb
