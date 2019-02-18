@@ -46,25 +46,7 @@ namespace ProbandoWebService
              response.Close();*/
 
 
-            /* ASCIIEncoding encoding = new ASCIIEncoding();
-
-             string postData = "url=123";
-             byte[] data = encoding.GetBytes(postData);
-
-             System.Net.WebRequest request = (System.Net.HttpWebRequest)System.Net.WebRequest.Create("https://web-service-to-csharp-hansmerz.c9users.io/test.php");
-             request.Method = "GET";
-             request.ContentType = "application/x-www-form-urlencoded";
-             request.ContentLength = data.Length;
-
-             Stream steam = request.GetRequestStream();
-             steam.Write(data, 0, data.Length);
-             steam.Close();
-
-             WebResponse response = request.GetResponse();
-             //steam = response.GetResponseStream();
-
-             StreamReader sr = new StreamReader(steam);
-             MessageBox.Show(sr.ReadToEnd());*/
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -91,6 +73,39 @@ namespace ProbandoWebService
                 //dataGridView1.Rows.Add(j.Nombres, j.Apellidos, j.docPersona, j.Correo);
                 MessageBox.Show("Nombre: " + j.Nombre + " Dirección: " + j.Direccion);
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ASCIIEncoding encoding = new ASCIIEncoding();
+
+            string postData = "test=123";
+            byte[] data = encoding.GetBytes(postData);
+
+            System.Net.WebRequest request = (System.Net.HttpWebRequest)System.Net.WebRequest.Create("https://web-service-to-csharp-hansmerz.c9users.io/test.php");
+            request.Method = "POST";
+            request.ContentType = "application/x-www-form-urlencoded";
+            request.ContentLength = data.Length;
+
+            Stream steam = request.GetRequestStream();
+            steam.Write(data, 0, data.Length);
+            steam.Close();
+
+            WebResponse response = request.GetResponse();
+            steam = response.GetResponseStream();            
+
+            using (StreamReader sr = new StreamReader(steam))
+            {
+                while (sr.Peek() >= 0)
+                {
+                    MessageBox.Show("Alv "+ sr.ReadLine());                    
+                }
+            }
+            /*foreach (var j in me)
+            {
+                //dataGridView1.Rows.Add(j.Nombres, j.Apellidos, j.docPersona, j.Correo);
+                MessageBox.Show("idDetalle: " + j.idDetalle + " Cantidad: " + j.Cantidad);
+            }*/
         }
 
         /*private static string ConcatParams(Dictionary parameters)
