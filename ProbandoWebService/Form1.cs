@@ -96,8 +96,9 @@ namespace ProbandoWebService
 
             using (StreamReader sr = new StreamReader(steam))
             {
-                while (sr.Peek() >= 0)
+                while (sr.Peek() > 0)
                 {
+                    dynamic m = JsonConvert.DeserializeObject(sr.ReadLine());
                     MessageBox.Show("Alv "+ sr.ReadLine());                    
                 }
             }
