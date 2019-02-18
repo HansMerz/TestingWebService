@@ -26,3 +26,8 @@ D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebServi
 D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebService.csproj.CopyComplete
 D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebService.exe
 D:\c#\WebService\TestingWebService\ProbandoWebService\obj\Debug\ProbandoWebService.pdb
+D:\c#\WebService\TestingWebService\ProbandoWebService\bin\Debug\System.Net.Http.dll
+D:\c#\WebService\TestingWebService\ProbandoWebService\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\c#\WebService\TestingWebService\ProbandoWebService\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\c#\WebService\TestingWebService\ProbandoWebService\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\c#\WebService\TestingWebService\ProbandoWebService\bin\Debug\System.Security.Cryptography.X509Certificates.dll
